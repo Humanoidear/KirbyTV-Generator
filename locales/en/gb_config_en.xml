@@ -1,0 +1,1828 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data version="1.0" code="HCMP">
+<!--not sure what this is used for yet-->
+<settings>
+    <e_vid_path>evideos/</e_vid_path>
+</settings>
+
+<!--TEXT STRINGS START HERE-->
+<locale>
+      <!--WII MESSAGE BOARD STUFF-->
+    <trans_unit id="notice">
+      <message size="">
+        <path>message_board/letterhead_basic.wii</path>
+        <no_title>1</no_title>
+        <target><![CDATA[Theres a new episode coming out<br/>on the Kirby TV Channel!<br/><br/>Check it out soon, so you <br/>don't miss out on some Kirby action!]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="award">
+      <message size="">
+      <path>message_board/letterhead_gift.wii</path>
+        <target><![CDATA[Please DM @oscie57 on Discord<br/>and show this message!]]></target>
+      </message>
+    </trans_unit>
+
+    <!--COMMON BUTTONS-->
+    <trans_unit id="btn_ok" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[OK]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_yes" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Yes]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_done" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Done]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_no" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[No]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_back" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Back]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_select" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Select]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_read" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Summary]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_wii" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Go to Wii Menu]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_done" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Done]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_back" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Back]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_1" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[English]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_2" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[French]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_3" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[German]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_4" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Italian]]></target>
+      </label>
+    </trans_unit>
+
+     <trans_unit id="btn_lang_5" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Dutch]]></target>
+      </label>
+    </trans_unit>
+
+
+    <!--MAIN MENU / "EpisodeSelectionScreen"-->
+	<trans_unit id="txt_episode_selection_title" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Now Showing]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="btn_timeline" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Episode<br/>Timetable]]></target>
+      </label>
+    </trans_unit>
+
+	<trans_unit id="btn_promo" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Promos]]></target>
+      </label>
+    </trans_unit>
+
+    <!--SETUP / "IntroScreen"-->
+	<trans_unit id="btn_ok" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[OK]]></target>
+      </label>
+    </trans_unit>
+
+	<trans_unit id="txt_intro_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[The Kirby TV Channel is a<br/>limited service showing free <br/>Kirby cartoons.<br/>]]></target>
+      </message>
+      <badge>2</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_intro_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episodes will be released<br/>every 3 days<br/>until 25th of December, 2025.]]></target>
+      </message>
+      <badge>3</badge>
+    </trans_unit>
+    
+    <trans_unit id="txt_intro_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episodes will remain available<br/>for 12 days. Check the Episode<br/>Timetable to view upcoming<br/>episodes.]]></target>
+      </message>
+      <badge>4</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[The Kirby TV Channel can send<br/>new episode announcements to<br/>your Wii Message Board.]]></target>
+      </message>
+      <badge>5</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Do you wish to receive new<br/>episode announcements from<br/>the Kirby TV Channel?]]></target>
+      </message>
+      <badge>1</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[You will now receive<br/>announcements when new<br/>episode are available for<br/>viewing.]]></target>
+      </message>
+      <badge>6</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_5" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[You will not receive<br/>announcements when new<br/>episode are available for<br/>viewing.]]></target>
+      </message>
+      <badge>6</badge>
+    </trans_unit>
+	
+    <trans_unit id="txt_updated" type="dialog">
+      <message size="">
+	<target xml:lang="en-UK"><![CDATA[The channel has been updated.<br/>Would you like to restart?]]></target>
+      </message>
+      <badge>7</badge>
+    </trans_unit>
+
+<!--EPISODE DETAILS SCREEN / "EpisodeDetailsScreen"-->
+    <trans_unit id="btn_play" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Play Episode]]></target>
+      </label>
+    </trans_unit>
+
+	<trans_unit id="txt_date_current" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Now<br/>Showing]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_limited" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Limited time<br/>remaining!]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_ended" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[No longer<br/>available.]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_locked" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Date<br/>Locked]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_expired" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episode<br/>Expired]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_date_future" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Available on:<br/>[episode_date]]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_date_unavailable" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episode Unavailable]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_date_limited_24" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[24 Hours<br/>Remaining]]></target>
+      </message>
+    </trans_unit>
+
+    
+<!-- dont know what to call this / "buttons/GBTitleCardButton"-->
+	<trans_unit id="txt_timeline_date_special" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Showing until: 18th JUL]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_timeline_date_expired" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episode expired]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_timeline_date_future" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Available on: [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_unlocked" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Showing until: [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_new" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[NEW! Showing until: [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_limited" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Expires soon! ([episode_date])]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_limited_24" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Less than 24 hours left!]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_ended" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episode ended on: [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_unavailable" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Episode Unavailable]]></target>
+      </message>
+    </trans_unit>
+
+
+<!--EPISODE TIMELINE MENU / "EpisodeTimelineScreen"-->
+    <trans_unit id="txt_timeline_title" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Episode Timetable]]></target>
+        </message>
+    </trans_unit>
+
+        <trans_unit id="txt_timeline_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[This is the Kirby TV Channel Episode Timetable.]]></target>
+      </message>
+      <badge>7</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Here you can check when new<br/>episodes will become available and use Keys to unlock<br/>episodes you may have missed.]]></target>
+      </message>
+      <badge>1</badge>
+    </trans_unit>
+
+<!--PROMO MENU / "PromoSelectionScreen"-->
+    <trans_unit id="txt_promo_title" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Promos]]></target>
+        </message>
+    </trans_unit>
+
+<!--EPISODE UNAVAILABLE SCREEN / "EpisodeUnavailableScreen"-->
+    <trans_unit id="txt_unlock_with_key" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Unlock this episode with a key?]]></target>
+        </message>
+    </trans_unit>
+
+
+<!--EPISODE UNLOCK SCREEN / "UnlockScreen"-->
+    <trans_unit id="txt_ep_unavailable" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[This episode is unavailable.]]></target>
+        </message>
+    </trans_unit>
+
+
+<!--WII MENU SCREEN / "SystemResetConfirmationScreen"-->
+    <trans_unit id="txt_reset_conf" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[<br/>Return to Wii Menu?]]></target>
+        </message>
+    </trans_unit>
+
+<!--SETTINGS SCREEN / "SettingsScreen"-->
+    <trans_unit id="txt_settings_title" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Settings]]></target>
+      </message>
+    </trans_unit>
+
+<!--MONTH INDEX / "time/DateManager"-->
+    <trans_unit id="txt_month_0" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[JAN]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[FEB]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[MAR]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[APR]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_4" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[MAY]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_5" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[JUN]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_6" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[JUL]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_7" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[AUG]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_8" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[SEP]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_9" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[OCT]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_10" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[NOV]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_11" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[DEC]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Este canal no soporta el español, estamos trabajando para soportar varios idiomas este servicio. <br><br>  ¿Quieres elegir otro idioma?]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Selecciona un idioma:]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[SPANISH TEXT 3]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_4" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[SPANISH TEXT 4]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Inglés <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Francés <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Alemán <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_4" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Italiano <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_5" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Holandés <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+</locale>
+
+
+<episode_data>
+
+    <item id="1" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 16 06 00 00">
+        <episode_number>1</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby Comes to Cappy Town]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede orders an octopus-like monster, waking the young Star Warrior Kirby and bringing him to Dream Land. After being accused of being the monster, Kirby saves the life of young Tiff and gains some trust. Meta Knight also trusts him and brings him out to the final confrontation with the evil octopus.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        
+        <video path="en/kirby1.mo"/>
+    </item>
+
+    <item id="2" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 19 06 00 00">
+        <episode_number>2</episode_number>
+        <kirby_power>5</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Blockbuster Battle]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[After moving into Cappy Town, Tiff and friends try to help Kirby find a place to stay. Meanwhile, King Dedede has noticed this and begins devising a plot to make sure Kirby doesn't move in anywhere.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby2.mo"/>
+    </item>
+
+    <item id="3" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 22 06 00 00">
+        <episode_number>3</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby's Duel Role]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede orders Meta Knight to fight Kirby so that he can discover Kirby's weakness. However, Meta Knight has his own reasons for wanting to duel Kirby. Meanwhile, Tiff and Tuff discover clues relating to Kirby's creation.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby3.mo"/>
+    </item>
+
+    <item id="4" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 25 06 00 00">
+        <episode_number>4</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Dark and Stormy Knight]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede orders a storm monster named Kracko, which specifically goes after Kirby. When it comes time for Kirby to fight the monster, Tiff calls for the Warp Star. Kirby takes on Kracko and inhales an electric sword Kracko formed and turns into Sword Kirby. Kirby defeats Kracko after hitting his eye with a Sword Beam.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby4.mo"/>
+    </item>
+
+    <item id="5" type="" start_date="2025 07 16 06 00 00" end_date="2025 07 28 06 00 00">
+        <episode_number>5</episode_number>
+        <kirby_power>18</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Beware: Whispy Woods!]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby finds a trail of apples and leads his friends into a frightful forest. King Dedede continues his wrath and starts cutting down the remainder of the trees. Kind Dedede then makes a speech for the citizens of Cappy Town that he is going to turn the once used-to-be Whispy Woods Forest into his own private Country Club.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby5.mo"/>
+    </item>
+
+    <item id="6" type="" start_date="2025 07 19 06 00 00" end_date="2025 07 31 06 00 00">
+        <episode_number>6</episode_number>
+        <kirby_power>30</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un-Reality TV]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede sends his Waddle Dees to Cappy Town to deliver a free television set to every family in Cappy Town. As it turns out, the king has finally brought televised entertainment to Dream Land under the name of Channel DDD. The Cappies are astounded by this new technology, and even Kirby loves Channel DDD.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby6.mo"/>
+    </item>
+
+    <item id="7" type="" start_date="2025 07 22 06 00 00" end_date="2025 08 03 06 00 00">
+        <episode_number>7</episode_number>
+        <kirby_power>19</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby's Egg-Cellent Adventure]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede purposely steals a giant egg that belongs to Dyna Blade. He later tricks Dyna Blade into thinking Kirby was the one who stole it.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby7.mo"/>
+    </item>
+
+    <item id="8" type="" start_date="2025 07 25 06 00 00" end_date="2025 08 06 06 00 00">
+        <episode_number>8</episode_number>
+        <kirby_power>5</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Curio's Curious Discovery]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[During some archaeological excavations in hopes to find remains of the Cappy Clan that founded the town, Tiff, Tuff, Kirby and Professor Curio discover some parts of King Dedede's ancestors instead.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby8.mo"/>
+    </item>
+
+    <item id="9" type="" start_date="2025 07 28 06 00 00" end_date="2025 08 09 06 00 00">
+        <episode_number>9</episode_number>
+        <kirby_power>21</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Fofa Factor]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Questions are asked about Fololo and Falala's origins since the two of them have been with Tiff and Tuff's family for as long as they remember; however, Sir Ebrum and Lady Like, who apparently know the truth, decide to stay silent about it. Meanwhile, King Dedede gets his latest monster from Nightmare Enterprises and decides to cause trouble in Cappy Town.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby9.mo"/>
+    </item>
+
+    <item id="10" type="" start_date="2025 07 31 06 00 00" end_date="2025 08 12 06 00 00">
+        <episode_number>10</episode_number>
+        <kirby_power>11</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Hail to the Chief]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Tuff and his friends create crimes to give the deposed Chief something to solve, and the Chief winds up a hero.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby10.mo"/>
+    </item>
+
+    <item id="11" type="" start_date="2025 08 03 06 00 00" end_date="2025 08 15 06 00 00">
+        <episode_number>11</episode_number>
+        <kirby_power>6</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Big Taste Test]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Chef Shiitake, the world-famous cook, is coming to Castle Dedede! Can Chef Kawasaki prepare a good meal to please his former tutor? With a little help from Kirby, maybe he can...]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby11.mo"/>
+    </item>
+
+    <item id="12" type="" start_date="2025 08 06 06 00 00" end_date="2025 08 18 06 00 00">
+        <episode_number>12</episode_number>
+        <kirby_power>22</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Escargoon Squad]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[After an odd sighting of a ghost in a picture that he took, Escargoon and King Dedede suspect that there is a ghost haunting Castle Dedede. After visiting the fortune teller, Mabel, Dedede is told that the ghost is real, and is out to haunt him... Will they be able to fight off the ghost?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby12.mo"/>
+    </item>
+    
+    <item id="13" type="" start_date="2025 08 09 06 00 00" end_date="2025 08 21 06 00 00">
+        <episode_number>13</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Cappy New Year]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[The Cappies' New Year is coming. But would it be a good one?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby13.mo"/>
+    </item>
+    
+    <item id="14" type="" start_date="2025 08 12 06 00 00" end_date="2025 08 24 06 00 00">
+        <episode_number>14</episode_number>
+        <kirby_power>23</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Pillow Case]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[As a New Years gift, Nightmare Enterprises sends Dedede pillows to mentally torture the Cappies into taking care of Kirby themselves under the control of Nightmare Enterprise.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby14.mo"/>
+    </item>
+    
+    <item id="15" type="" start_date="2025 08 15 06 00 00" end_date="2025 08 27 06 00 00">
+        <episode_number>15</episode_number>
+        <kirby_power>24</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby's Pet Peeve]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby doesn't have anyone his size to play with; whenever he plays with Tuff and his friends, he always ends up getting pushed around. Tiff thinks that her family should go to Gengu's toy store to buy Kirby a toy he can play with. Conveniently, Gengu has a brand new toy in stock. He doesn't know how it got in his shop, but Tiff thinks it will be a perfect playmate for Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby15.mo"/>
+    </item>
+    
+    <item id="16" type="" start_date="2025 08 18 06 00 00" end_date="2025 08 30 06 00 00">
+        <episode_number>16</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Fish Called Kine]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kine asks Tiff to if she would like go on a date with him in the Rainbow Coral Reef. Tiff gets smitten with Kine. King Dedede and Escargoon try to destroy the Rainbow Coral Reef and claim as their own ocean property. Kirby manages to put a stop their plot by turning into Tornado Kirby and blowing their submarine to pieces and saving Kine's home.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby16.mo"/>
+    </item>
+    
+    <item id="17" type="" start_date="2025 08 21 06 00 00" end_date="2025 09 02 06 00 00">
+        <episode_number>17</episode_number>
+        <kirby_power>25</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Thing About the Ring]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[It's the day of Sir Ebrum and Lady Like's anniversary and Sir Ebrum had never worked up the nerve to give his wife the wedding ring. But when he decides this year will be the year, the ring goes missing.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby17.mo"/>
+    </item>
+    
+    <item id="18" type="" start_date="2025 08 24 06 00 00" end_date="2025 09 05 06 00 00">
+        <episode_number>18</episode_number>
+        <kirby_power>13</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Flower Power]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede fools Kirby into inhaling a Noddy, which causes him to fall asleep for a hundred years. Will Tiff, Tuff, Meta Knight, Fololo, and Falala find a way to wake him up?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby18.mo"/>
+    </item>
+    
+    <item id="19" type="" start_date="2025 08 27 06 00 00" end_date="2025 09 08 06 00 00">
+        <episode_number>19</episode_number>
+        <kirby_power>14</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Here Comes the Son]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Knuckle Joe travels to Castle Dedede in search of the person who killed his father. He comes across King Dedede and Escargoon, who tell him that Kirby is the warrior who had done it. Seeking revenge, Knuckle Joe runs to Cappy Town to challenge him to a battle.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby19.mo"/>
+    </item>
+    
+    <item id="20" type="" start_date="2025 08 30 06 00 00" end_date="2025 09 11 06 00 00">
+        <episode_number>20</episode_number>
+        <kirby_power>15</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Dedede's Snow Job]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede decides it's too hot and enlists the help of a monster to cool things down a bit. Unfortunately, Ice Dragon instantly plunges Dream Land into the deepest winter&#8212;and then Chilly emerges from the snow. Can Kirby fight off two monsters at once?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby20.mo"/>
+    </item>
+    
+    
+    <item id="21" type="" start_date="2025 09 02 06 00 00" end_date="2025 09 14 06 00 00">
+        <episode_number>21</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Princess in Dis-Dress]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[One day, a princess from another planet visits Dream Land, and King Dedede falls in love with her, but Commander Vee is determined to keep him away from her. Vee later goes and meets Tiff, Tuff, and Kirby and decides to live a life outside of Castle Dedede with them.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby21.mo"/>
+    </item>
+    
+    <item id="22" type="" start_date="2025 09 05 06 00 00" end_date="2025 09 17 06 00 00">
+        <episode_number>22</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Island of the Lost Warrior]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[When Tiff, Tuff, Kirby, Fololo, and Falala get caught in a mysterious tornado storm, they find themselves on a deserted island in the middle of the ocean.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby22.mo"/>
+    </item>
+    
+    <item id="23" type="" start_date="2025 09 08 06 00 00" end_date="2025 09 20 06 00 00">
+        <episode_number>23</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Empty Nest Mess]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Escargoon mixes a monster making potion and King Dedede decides to use it on Dyna Chick.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby23.mo"/>
+    </item>
+    
+    <item id="24" type="" start_date="2025 09 11 06 00 00" end_date="2025 09 23 06 00 00">
+        <episode_number>24</episode_number>
+        <kirby_power>12</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Ninja Binge]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Professor Curio has a break-in late last night, but the robber was a failed ninja from a ninja academy trying to steal a scroll. Kirby tries to help him learn to be better. It seems that the scroll has another admirer, King Dedede.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby24.mo"/>
+    </item>
+    
+    <item id="25" type="" start_date="2025 09 14 06 00 00" end_date="2025 09 26 06 00 00">
+        <episode_number>25</episode_number>
+        <kirby_power>3</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Like Mother, Like Snail]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Cappy Town has a visitor: Escargoon's mother. It turns out that Escargoon has been lying to her&#8212;he sent a letter stating that he was the ruler of Dream Land. Escargoon doesn't want to let her down, so everyone goes along with the story.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby25.mo"/>
+    </item>
+    
+    <item id="26" type="" start_date="2025 09 17 06 00 00" end_date="2025 09 29 06 00 00">
+        <episode_number>26</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Sword and Blade, Loyal and True]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede buys a monster called WolfWrath in another attempt to get rid of Kirby, but the monster immediately goes out of control, rampaging throughout his castle and setting fires around it against his wishes. Meta Knight shows up just in time to protect Kirby and fight against WolfWrath, only to get paralyzed by one of its fangs embedded into his forehead.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby26.mo"/>
+    </item>
+    
+    <item id="27" type="" start_date="2025 09 20 06 00 00" end_date="2025 10 02 06 00 00">
+        <episode_number>27</episode_number>
+        <kirby_power>11</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Flower Plot]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[A lone flower grows in front of Whispy Woods, which is later named Lovely. Later, King Dedede and Escargoon steal Lovely and ask the N.M.E. Sales Guy to turn Lovely into a monster. At night, Lovely steals Whispy's life force. With the situation being dire, Kirby inhales one of Lovely's blades and becomes Cutter Kirby. Can Kirby stop Lovely before it's too late?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby27.mo"/>
+    </item>
+    
+    <item id="28" type="" start_date="2025 09 23 06 00 00" end_date="2025 10 05 06 00 00">
+        <episode_number>28</episode_number>
+        <kirby_power>15</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Labor Daze]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede decides to open a factory to manufacture goods while giving the workers free Dedede-branded merchandise in a rare gesture of generosity. People become obsessed about the whole scheme and merchandise and start working a lot more, heavily polluting Cappy Town and not knowing that they are actually creating parts for something more sinister than the merchandise they're obsessed about.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby28.mo"/>
+    </item>
+    
+    <item id="29" type="" start_date="2025 09 26 06 00 00" end_date="2025 10 08 06 00 00">
+        <episode_number>29</episode_number>
+        <kirby_power>6</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Hot Shot Chef]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede gets tired of his food at the castle. He decides to head to Kawasaki's, but he really isn't much better off eating there. Annoyed, he decides to order a monster who opens a restaurant to compete against Chef Kawasaki, leading to a battle between the two restaurants to see who can make the spiciest dish.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby29.mo"/>
+    </item>
+
+    <item id="30" type="" start_date="2025 09 29 06 00 00" end_date="2025 10 11 06 00 00">
+        <episode_number>30</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Hatch Me if You Can]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby finds himself in possession of an egg as large as he is all of a sudden. Tiff is naturally curious about the whole thing, as she wonders whether it really is Kirby's egg, but becomes suspicious of Dedede and Escargoon after they act smug when asked whether they know about it. Eventually the egg hatches on its own and Kirby realizes that parenting may be biting off far more than he can chew.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby30.mo"/>
+    </item>
+
+    <item id="31" type="" start_date="2025 10 02 06 00 00" end_date="2025 10 14 06 00 00">
+        <episode_number>31</episode_number>
+        <kirby_power>9</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Abusement Park]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dedede creates an amusement park for all the Cappies, but when Kirby and friends get lost in the castle, they soon learn that this amusement park is really a trap.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby31.mo"/>
+    </item>
+
+    <item id="32" type="" start_date="2025 10 05 06 00 00" end_date="2025 10 17 06 00 00">
+        <episode_number>32</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Dental Dilemma]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[The plot is about King Dedede and Tuff suffering from toothaches and having to see Yabui about getting their cavities filled, despite both of them being very squeamish about it. Dedede eventually orders a monster, Hardy, to do the job anyway as usual since he doesn't want to see Yabui, but he is just as scared about it, if not more.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby32.mo"/>
+    </item>
+
+    <item id="33" type="" start_date="2025 10 08 06 00 00" end_date="2025 10 20 06 00 00">
+        <episode_number>33</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Junk Jam]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Cappy Town becomes the universe's newest dumping ground with mountains of garbage, no thanks to Dedede's equally mountainous debt. Eventually, the stink gets to even the highly insensitive Dedede, who still refuses to pay up. He decides to fight fire with "fire" and hacks into the teleporter.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby33.mo"/>
+    </item>
+
+    <item id="34" type="" start_date="2025 10 11 06 00 00" end_date="2025 10 23 06 00 00">
+        <episode_number>34</episode_number>
+        <kirby_power>6</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Recipe for Disaster]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Chef Kawasaki's mentor, Chef Shiitake, makes an unexpected visit to Cappy Town... and this time it's the real deal, not a monster in disguise. But the famous Chef Shiitake isn't as innocent as he seems; it turns out he's putting a chemical in his food that can manipulate people's taste buds.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby34.mo"/>
+    </item>
+
+    <item id="35" type="" start_date="2025 10 14 06 00 00" end_date="2025 10 26 05 00 00">
+        <episode_number>35</episode_number>
+        <kirby_power>8</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Kirby Derby - Part I]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby has found his old starship from the first episode; King Dedede uses this to challenge Kirby to a race.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby35.mo"/>
+    </item>
+
+    <item id="36" type="" start_date="2025 10 17 06 00 00" end_date="2025 10 29 05 00 00">
+        <episode_number>36</episode_number>
+        <kirby_power>8</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[The Kirby Derby - Part II]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[This episode continues from the last part, The Kirby Derby - Part I.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby36.mo"/>
+    </item>
+
+    <item id="37" type="" start_date="2025 10 20 06 00 00" end_date="2025 11 01 05 00 00">
+        <episode_number>37</episode_number>
+        <kirby_power>26</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Watermelon Felon]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede is constantly filming Kirby in hopes of catching him in a criminal offense, but Kirby's just too warmhearted to do anything bad. So after the king reviews the footage that he caught, he uses a few video editing tricks to make Kirby look like a thief. The edited video makes it look like Kirby ate a bag of chips that Honey's mom dropped and stole a plate of dumplings from Kawasaki.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby37.mo"/>
+    </item>
+
+    <item id="38" type="" start_date="2025 10 23 06 00 00" end_date="2025 11 04 05 00 00">
+        <episode_number>38</episode_number>
+        <kirby_power>7</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Novel Approach]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[A new book is sweeping Cappy Town like a sandstorm. King Dedede wants to read it too, but can't due to being illiterate, so he takes drastic measures to understand the book. ]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby38.mo"/>
+    </item>
+
+    <item id="39" type="" start_date="2025 10 26 05 00 00" end_date="2025 11 07 05 00 00">
+        <episode_number>39</episode_number>
+        <kirby_power>18</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Escar-Gone]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede orders a monster late at night that enters Escargoon when he is asleep, causing him to be forgotten by everybody in town. Luckily, Kirby, Tiff, and Meta Knight are there to help get rid of the monster responsible for the forgetting of Escargoon.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby39.mo"/>
+    </item>
+
+    <item id="40" type="" start_date="2025 10 29 05 00 00" end_date="2025 11 10 05 00 00">
+        <episode_number>40</episode_number>
+        <kirby_power>14</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Monster Management]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Knuckle Joe is back, and this time, he's got a new, horrible surprise in store for Dream Land: He is now in charge of Nightmare Enterprises's new monster management service, having sent hundreds of small monsters to wreak havoc in Cappy Town. Although Kirby tries to help by inhaling them, there are just too many to swallow, and he very quickly becomes worn out from all that inhaling.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby40.mo"/>
+    </item>
+    
+    <item id="41" type="" start_date="2025 11 01 05 00 00" end_date="2025 11 13 05 00 00">
+        <episode_number>41</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Prediction Predicament - Part I]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede is having nightmares about a monster-sized Kirby engulfed in fire. Tiff and Mabel try to find out the cause of these appalling dreams.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby41.mo"/>
+    </item>
+    
+    <item id="42" type="" start_date="2025 11 04 05 00 00" end_date="2025 11 16 05 00 00">
+        <episode_number>42</episode_number>
+        <kirby_power>27</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Prediction Predicament - Part II]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[This episode continues from the last part, Prediction Predicament - Part I.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby42.mo"/>
+    </item>
+    
+    <item id="43" type="" start_date="2025 11 07 05 00 00" end_date="2025 11 19 05 00 00">
+        <episode_number>43</episode_number>
+        <kirby_power>13</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Sheepwrecked]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[A sheep by the name of Amon is turning the timid sheep of Dream Land into rebellious wolf-like sheep out for revenge on Cappy Town.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby43.mo"/>
+    </item>
+    
+    <item id="44" type="" start_date="2025 11 10 05 00 00" end_date="2025 11 22 05 00 00">
+        <episode_number>44</episode_number>
+        <kirby_power>11</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[War of the Woods]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby and company visit Whispy Woods in Whispy Woods Forest. At first, Whispy seems his friendly old self, but then tells the group that he senses his old friend Acore is in danger and asks them to check out on Acore for him. Not long after, they find Acore riddled with holes and inhabited by all sorts of animals, including Rick, who recognizes Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby44.mo"/>
+    </item>
+    
+    <item id="45" type="" start_date="2025 11 13 05 00 00" end_date="2025 11 25 05 00 00">
+        <episode_number>45</episode_number>
+        <kirby_power>19</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Scare Tactics - Part I]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Cappy Town holds a Halloween festival called a Spook Out. Tiff ends up as the first victim when getting Kirby out of the forest, and doesn't come off too pleased with Mayor Len Blustergas's device. Later, during the main walking event, Dedede and Escargoon decide to make an unannounced entry and scare the walkers witless with their own made-up ghost puppet.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby45.mo"/>
+    </item>
+    
+    <item id="46" type="" start_date="2025 11 16 05 00 00" end_date="2025 11 28 05 00 00">
+        <episode_number>46</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Scare Tactics - Part II]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[While seeking shelter in a haunted mansion in the graveyard from the rain, the kids are in for the scare of their lives when they find all kinds of paranormal activities going on within the mansion. But soon enough, they see and believe that King Dedede must be behind the mansion's paranoia. They decide to pull pranks on him and Escargoon that scare them all over the mansion.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby46.mo"/>
+    </item>
+    
+    <item id="47" type="" start_date="2025 11 19 05 00 00" end_date="2025 12 01 05 00 00">
+        <episode_number>47</episode_number>
+        <kirby_power>5</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Pink-Collar Blues]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede gets fed up for having to wait hours and hours for a tea refill to come from his attendant Waddle Dees. As usual, he looks to Nightmare Enterprises to provide an alternative to his Waddle Dee workforce, and orders a servant robot which works at 1,000 times the efficiency of a Waddle Dee.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby47.mo"/>
+    </item>
+    
+    <item id="48" type="" start_date="2025 11 22 05 00 00" end_date="2025 12 04 05 00 00">
+        <episode_number>48</episode_number>
+        <kirby_power>15</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Tourist Trap]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[When King Dedede starts a sightseeing tour, which causes problems for Dream Land.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby48.mo"/>
+    </item>
+    
+    <item id="49" type="" start_date="2025 11 25 05 00 00" end_date="2025 12 07 05 00 00">
+        <episode_number>49</episode_number>
+        <kirby_power>22</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Cartoon Buffoon]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede wants to make his own animated TV show having himself as the main character. With Nightmare Enterprises helping to fund the project, he hires a team of members to work on the cartoon. However, the group only has a few days to get the first episode done before it airs, as well as a few disagreements with planning.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby49.mo"/>
+    </item>
+    
+    <item id="50" type="" start_date="2025 11 28 05 00 00" end_date="2025 12 10 05 00 00">
+        <episode_number>50</episode_number>
+        <kirby_power>29</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Don't Bank on It]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[In this episode, King Dedede orders a doll from Nightmare Enterprises, which are linked King Dedede. Whatever he does, the dolls do, and whatever happens to the dolls happen to him as well. At night, the doll shouts "Dedede! You like me! Dedede! You trust me!" and he hypnotizes the Cappies to put their money into Dedede Doll's coin slot-shaped mouth, and change their opinion about him.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby50.mo"/>
+    </item>
+    
+    <item id="51" type="" start_date="2025 12 01 05 00 00" end_date="2025 12 13 05 00 00">
+        <episode_number>51</episode_number>
+        <kirby_power>10</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby Takes the Cake]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[It's been one year since Kirby came to Cappy Town in the first episode, so Tiff, Tuff, and the other Cappies wish to surprise Kirby with a celebration in his honor. Can they keep the surprise from the pink puffball for long enough, or will King Dedede crash the party and ruin it for everyone?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby51.mo"/>
+    </item>
+    
+    <item id="52" type="" start_date="2025 12 04 05 00 00" end_date="2025 12 16 05 00 00">
+        <episode_number>52</episode_number>
+        <kirby_power>30</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Snack Attack - Part I]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[After Tuggle tries to throw away his poorly-selling chocolate capsules and Gengu attempts to dispose of his unpopular mini-figures, Tiff suggests that they put their two products together to make one new item. They decide to put the mini-figures inside the chocolate capsules and market them. They instantly prove to be a huge hit as all the Cappy Kids, and even a few of the adults, scramble to collect the Star Warrior mini-figures inside of the capsules.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby52.mo"/>
+    </item>
+    
+    <item id="53" type="" start_date="2025 12 07 05 00 00" end_date="2025 12 19 05 00 00">
+        <episode_number>53</episode_number>
+        <kirby_power>14</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Snack Attack - Part II]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[From the last episode, Tuggle and Gengu made a popular new chocolate candy that had Star Warrior figures inside them. They received a mysterious new package of these candies late one night, but they had no idea that these sweets were from Nightmare Enterprises. After the Cappies got their hands on them, the figures turned in to miniature monsters and wreaked havoc in Cappy Town.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby53.mo"/>
+    </item>
+    
+    <item id="54" type="" start_date="2025 12 10 05 00 00" end_date="2025 12 22 05 00 00">
+        <episode_number>54</episode_number>
+        <kirby_power>4</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[One Crazy Knight]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[When a mysterious spaceship comes crashing into Dream Land, Kirby, Tiff, and Tuff go to investigate it. The ship ends up falling into a chasm, but thanks to a plan from Tiff, they're able to get it out. The inhibitor isn't exactly thankful, though&#8212;a stubby, ball-shaped knight emerges from the spacecraft and starts attacking the three.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby54.mo"/>
+    </item>
+    
+    <item id="55" type="" start_date="2025 12 13 05 00 00" end_date="2025 12 25 05 00 00">
+        <episode_number>55</episode_number>
+        <kirby_power>13</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Sweet & Sour Puss]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[King Dedede has become inexplicably forgiving and calm, so much so that he states that he doesn't want to fight anymore. What happened to the king to make him so unrealistically pacifist?]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="en/kirby55.mo"/>
+    </item>
+
+</episode_data>
+
+<!--HELP SCREEN DATA STARTS HERE (doesn't work yet)-->
+<help_data>
+     <item id="mail">
+        <button linkageID="Btn_Settings_Mail">
+            <trans_unit>
+
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Mail]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[Change Announcement Settings]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+
+     <item id="channel">
+         <page_data>
+             <trans_unit id="channel_1" type="dialog">
+                 <message size="">
+                    <target xml:lang="en-UK"><![CDATA[The Kirby TV Channel is a<br/>limited service showing free <br/>Kirby cartoons.<br/>]]></target>
+                 </message>
+                 <badge>2</badge>
+             </trans_unit>
+
+             <trans_unit id="channel_2" type="dialog">
+                 <message size="">
+                    <target xml:lang="en-UK"><![CDATA[Episodes will be<br/>released every four<br/>days until<br/> 24th of December, 2022.]]></target>
+                 </message>
+                 <badge>3</badge>
+             </trans_unit>
+
+             <trans_unit id="channel_3" type="dialog">
+                 <message size="">
+                    <target xml:lang="en-UK"><![CDATA[Episodes will remain available<br/>for 16 days. Check the Episode<br/>Timetable to view upcoming<br/>episodes.]]></target>
+                 </message>
+                 <badge>4</badge>
+             </trans_unit>
+        </page_data>
+
+        <button linkageID="Btn_Settings_Channel">
+            <trans_unit>
+
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Channel]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[About The Channel]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+
+    <item id="timetable">
+        <page_data>
+            <trans_unit id="txt_timeline_1" type="dialog">
+                <message size="">
+                    <target xml:lang="en-UK"><![CDATA[This is the Kirby TV Channel Episode Timetable.]]></target>
+                </message>
+                <badge>7</badge>
+            </trans_unit>
+
+            <trans_unit id="txt_timeline_2" type="dialog">
+              <message size="">
+                <target xml:lang="en-UK"><![CDATA[Here you can check when new<br/>episodes will become available and use Keys to unlock<br/>episodes you may have missed.]]></target>
+              </message>
+              <badge>1</badge>
+            </trans_unit>
+        </page_data>
+        <button linkageID="Btn_Settings_TimeTable">
+            <trans_unit>
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Timetable]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[Episode Timetable Information]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+
+    <item id="keys">
+        <page_data>
+                <trans_unit id="key_1" type="dialog">
+                    <message size="">
+                        <target xml:lang="en-UK"><![CDATA[You may receive a Key after </br> watching a Kirby episode.]]></target>
+                    </message>
+                    <badge>8</badge>
+                </trans_unit>
+
+                <trans_unit id="key_2" type="dialog">
+                    <message size="">
+                        <target xml:lang="en-UK"><![CDATA[Keys may be used to view a </br> locked episode for 24 hours.]]></target>
+                    </message>
+                    <badge>9</badge>
+                </trans_unit>
+
+                <trans_unit id="key_3" type="dialog">
+                    <message size="">
+                        <target xml:lang="en-UK"><![CDATA[If you find a Key, look in the </br> Episode Timetable for an older </br> episode to unlock.]]></target>
+                    </message>
+                    <badge>1</badge>
+                </trans_unit>
+        </page_data>
+
+        <button linkageID="Btn_Settings_Keys">
+            <trans_unit>
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Keys]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[Learn About Keys]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+</help_data>
+
+<!--PROMO DATA STARTS HERE-->
+    <!--
+<promo_data>
+    <item assets="" id="0" btn="Btn_PromoVideo_MA">
+        <episode_number>1</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Launch Trailer]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo1.mo"/>
+    </item>
+    <item assets="" id="1" btn="Btn_PromoVideo_AW">
+        <episode_number>2</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Launch Trailer]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo2.mo"/>
+    </item>
+    <item assets="" id="2" btn="Btn_PromoVideo_EY1">
+        <episode_number>3</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Launch Trailer]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo3.mo"/>
+    </item>
+    <item assets="" id="3" btn="Btn_PromoVideo_EY2">
+        <episode_number>4</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[KTVC Trailer]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo4.mo"/>
+    </item>
+</promo_data>
+ -->
+</data>
