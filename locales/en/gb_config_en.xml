@@ -1687,7 +1687,7 @@
 
              <trans_unit id="channel_2" type="dialog">
                  <message size="">
-                    <target xml:lang="en-UK"><![CDATA[Episodes will be<br/>released every four<br/>days until<br/> 24th of December, 2022.]]></target>
+                    <target xml:lang="en-UK"><![CDATA[Episodes will be released<br/>every 3 days<br/>until 25th of December, 2025.]]></target>
                  </message>
                  <badge>3</badge>
              </trans_unit>

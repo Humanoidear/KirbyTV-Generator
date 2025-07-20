@@ -12,7 +12,7 @@ enddate = startdate + uptime
 dtformat = '%Y %m %d %H %M %S'
 
 # Supported locales
-SUPPORTED_LOCALES = ['en', 'es']
+SUPPORTED_LOCALES = ['en', 'es', 'it']
 
 def load_locale_module(locale_code):
     """Dynamically load locale module"""
@@ -151,6 +151,18 @@ def process_locale(locale_code):
                     targets = message.findall('target')
                     for target in targets:
                         target.text = ET.CDATA(txtint3)
+
+    help_data_sections = body.findall("help_data")
+    for help_data in help_data_sections:
+        units = help_data.findall('.//trans_unit')
+        for trans_unit in units:
+            unit_id = trans_unit.get('id')
+            if unit_id == 'channel_2':
+                messages = trans_unit.findall('message')
+                for message in messages:
+                    targets = message.findall('target')
+                    for target in targets:
+                        target.text = ET.CDATA(txtint2)
 
     # Write the updated XML
     root.write(xmlfile, xml_declaration=True, encoding='utf-8')
