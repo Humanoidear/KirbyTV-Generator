@@ -1,0 +1,1828 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data version="1.0" code="HCMP">
+<!--not sure what this is used for yet-->
+<settings>
+    <e_vid_path>evideos/</e_vid_path>
+</settings>
+
+<!--TEXT STRINGS START HERE-->
+<locale>
+      <!--WII MESSAGE BOARD STUFF-->
+    <trans_unit id="notice">
+      <message size="">
+        <path>message_board/letterhead_basic.wii</path>
+        <no_title>1</no_title>
+        <target><![CDATA[Un nouvel épisode est sorti sur<br/>la chaîne TV Kirby!<br/><br/>Allez le regarder avant qu'il ne<br/>soit trop tard, si vous ne voulez<br/>pas rater les aventures de Kirby!]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="award">
+      <message size="">
+      <path>message_board/letterhead_gift.wii</path>
+        <target><![CDATA[Merci d'envoyer un message privé<br/>à @oscie57 sur Discord et<br/>montrez lui ce message!]]></target>
+      </message>
+    </trans_unit>
+
+    <!--COMMON BUTTONS-->
+    <trans_unit id="btn_ok" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[OK]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_yes" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Oui]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_done" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Terminé]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_no" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Non]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_back" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Retour]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_select" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Sélectionner]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_read" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Résumé]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_wii" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Retourner au menu Wii]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_done" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Terminé]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_back" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Retour]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_1" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Anglais]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_2" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Français]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_3" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Allemand]]></target>
+      </label>
+    </trans_unit>
+
+    <trans_unit id="btn_lang_4" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Italien]]></target>
+      </label>
+    </trans_unit>
+
+     <trans_unit id="btn_lang_5" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Néerlandais]]></target>
+      </label>
+    </trans_unit>
+
+
+    <!--MAIN MENU / "EpisodeSelectionScreen"-->
+	<trans_unit id="txt_episode_selection_title" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Nouveaux épisodes]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="btn_timeline" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Programme]]></target>
+      </label>
+    </trans_unit>
+
+	<trans_unit id="btn_promo" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Promotions]]></target>
+      </label>
+    </trans_unit>
+
+    <!--SETUP / "IntroScreen"-->
+	<trans_unit id="btn_ok" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[OK]]></target>
+      </label>
+    </trans_unit>
+
+	<trans_unit id="txt_intro_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[La chaîne TV Kirby est<br/>un service limité qui permet<br/>de regarder gratuitement le<br/>dessin animé Kirby.]]></target>
+      </message>
+      <badge>2</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_intro_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Les épisodes sortiront<br/>tous les 3 jours jusqu'au<br/>25 décembre 2025.]]></target>
+      </message>
+      <badge>3</badge>
+    </trans_unit>
+    
+    <trans_unit id="txt_intro_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Les épisodes resteront disponibles pendant 12 jours. Vérifiez le programme pour voir les épisodes à venir.]]></target>
+      </message>
+      <badge>4</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[La chaîne TV Kirby peut envoyer des messages concernant la sortie de nouveaux épisodes sur votre bureau Wii.]]></target>
+      </message>
+      <badge>5</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Souhaitez-vous recevoir les<br/>messages de la chaîne TV Kirby?]]></target>
+      </message>
+      <badge>1</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Vous recevrez désormais<br/>un message à la sortie<br/>de nouveaux épisodes.]]></target>
+      </message>
+      <badge>6</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_optin_5" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Vous ne recevrez pas de<br/>messages à la sortie de<br/>nouveaux épisodes.]]></target>
+      </message>
+      <badge>6</badge>
+    </trans_unit>
+	
+    <trans_unit id="txt_updated" type="dialog">
+      <message size="">
+	<target xml:lang="en-UK"><![CDATA[La chaîne a été mise à jour.<br/>Voulez-vous redémarrer?]]></target>
+      </message>
+      <badge>7</badge>
+    </trans_unit>
+
+<!--EPISODE DETAILS SCREEN / "EpisodeDetailsScreen"-->
+    <trans_unit id="btn_play" type="btn">
+      <label size="">
+        <target xml:lang="en-UK"><![CDATA[Regarder l'épisode]]></target>
+      </label>
+    </trans_unit>
+
+	<trans_unit id="txt_date_current" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Disponible]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_limited" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Bientôt expiré!]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_ended" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Plus<br/>disponible.]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_locked" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Date<br/>verrouillée]]></target>
+      </message>
+    </trans_unit>
+
+	<trans_unit id="txt_date_expired" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Épisode<br/>expiré]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_date_future" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Disponible le :<br/>[episode_date]]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_date_unavailable" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Épisode indisponible]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_date_limited_24" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[24 heures<br/>restantes]]></target>
+      </message>
+    </trans_unit>
+
+    
+<!-- dont know what to call this / "buttons/GBTitleCardButton"-->
+	<trans_unit id="txt_timeline_date_special" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Disponible jusqu'au : 18th JUL]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_timeline_date_expired" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Épisode expiré]]></target>
+      </message>
+  </trans_unit>
+
+	<trans_unit id="txt_timeline_date_future" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Disponible le : [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_unlocked" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Disponible jusqu'au : [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_new" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[NOUVEAU! Disponible jusqu'au : [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_limited" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Expire bientôt! ([episode_date])]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_limited_24" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Moins de 24 heures restantes!]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_ended" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Épisode terminé le : [episode_date]]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_date_unavailable" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Épisode indisponible]]></target>
+      </message>
+    </trans_unit>
+
+
+<!--EPISODE TIMELINE MENU / "EpisodeTimelineScreen"-->
+    <trans_unit id="txt_timeline_title" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Programme des épisodes]]></target>
+        </message>
+    </trans_unit>
+
+        <trans_unit id="txt_timeline_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Ceci est le programme des épisodes de la chaîne TV Kirby.]]></target>
+      </message>
+      <badge>7</badge>
+    </trans_unit>
+
+    <trans_unit id="txt_timeline_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Ici vous pouvez vérifier quand<br/>de nouveaux épisodes sortent<br/>et utiliser des clés pour déverrouiller des épisodes manqués.]]></target>
+      </message>
+      <badge>1</badge>
+    </trans_unit>
+
+<!--PROMO MENU / "PromoSelectionScreen"-->
+    <trans_unit id="txt_promo_title" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Promotions]]></target>
+        </message>
+    </trans_unit>
+
+<!--EPISODE UNAVAILABLE SCREEN / "EpisodeUnavailableScreen"-->
+    <trans_unit id="txt_unlock_with_key" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Déverrouiller cet épisode avec une clé?]]></target>
+        </message>
+    </trans_unit>
+
+
+<!--EPISODE UNLOCK SCREEN / "UnlockScreen"-->
+    <trans_unit id="txt_ep_unavailable" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[Cet épisode est indisponible.]]></target>
+        </message>
+    </trans_unit>
+
+
+<!--WII MENU SCREEN / "SystemResetConfirmationScreen"-->
+    <trans_unit id="txt_reset_conf" type="dialog">
+        <message size="">
+            <target xml:lang="en-UK"><![CDATA[<br/>Retourner au menu Wii?]]></target>
+        </message>
+    </trans_unit>
+
+<!--SETTINGS SCREEN / "SettingsScreen"-->
+    <trans_unit id="txt_settings_title" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Paramètres]]></target>
+      </message>
+    </trans_unit>
+
+<!--MONTH INDEX / "time/DateManager"-->
+    <trans_unit id="txt_month_0" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[JAN]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[FÉV]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[MAR]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[AVR]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_4" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[MAI]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_5" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[JUN]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_6" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[JUL]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_7" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[AOÛ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_8" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[SEP]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_9" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[OCT]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_10" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[NOV]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_month_11" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[DÉC]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Este canal no soporta el español, estamos trabajando para soportar varios idiomas este servicio. <br><br>  ¿Quieres elegir otro idioma?]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[Selecciona un idioma:]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[SPANISH TEXT 3]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_4" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[SPANISH TEXT 4]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_1" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Inglés <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_2" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Francés <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_3" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Alemán <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_4" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Italiano <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+    <trans_unit id="txt_spanish_3_5" type="dialog">
+      <message size="">
+        <target xml:lang="en-UK"><![CDATA[ <br><br> Has seleccionado Holandés <br><br> ¿Continuar? ]]></target>
+      </message>
+    </trans_unit>
+
+</locale>
+
+
+<episode_data>
+
+    <item id="1" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 16 06 00 00">
+        <episode_number>1</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby, le guerrier de l'espace]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Venant d'une planète lointaine, le guerrier de l'espace Kirby s'écrase sur la paisible planète Pop Star qu'il doit sauver des griffes des monstres de la société Nightmare Corporation, dont l'un des clients n'est autre que le roi de la ville de Cappyville qui est située sur cette planète, Dadidou.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        
+        <video path="fr/kirbyen/1.mo"/>
+    </item>
+
+    <item id="2" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 19 06 00 00">
+        <episode_number>2</episode_number>
+        <kirby_power>5</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby contre le monstre de Pierre]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Désormais citoyen de Cappyville, Kirby n'a cependant pas de maison. Tiff et Tuff ont toutes les peines du monde à lui trouver un endroit où vivre, car Dadidou lui met des bâtons dans les roues.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/2.mo"/>
+    </item>
+
+    <item id="3" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 22 06 00 00">
+        <episode_number>3</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le duel]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby reçoit une lettre de Meta Knight qui le provoque en duel. C'est en fait un coup monté de Dadidou pour se débarrasser de Kirby. Mais Meta Knight dissimule un entraînement sous ce duel.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/3.mo"/>
+    </item>
+
+    <item id="4" type="" start_date="2025 07 13 06 00 00" end_date="2025 07 25 06 00 00">
+        <episode_number>4</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le chevalier de l'ombre]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Meta Knight enseigne à Tiff ce qu'il sait sur Kirby, son propre passé ainsi que le secret d'appel de l’étoile Warp en cas de besoin.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/4.mo"/>
+    </item>
+
+    <item id="5" type="" start_date="2025 07 16 06 00 00" end_date="2025 07 28 06 00 00">
+        <episode_number>5</episode_number>
+        <kirby_power>18</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La colère de Whispy Woods]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[En faisant un pique-nique en forêt, Kirby se perd, puis c'est le tour de Tiff et Tuff. Ils apprennent avec terreur qu'ils sont dans la forêt de Whispy Woods, arbre-roi, qui les prend pour des ennemis de la nature.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/5.mo"/>
+    </item>
+
+    <item id="6" type="" start_date="2025 07 19 06 00 00" end_date="2025 07 31 06 00 00">
+        <episode_number>6</episode_number>
+        <kirby_power>30</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La télé "Non" réalité]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou fait distribuer la télévision à Cappyville. Malgré le fait que tous les programmes soient centrés sur le roi, tout le monde apprécie la télévision, sauf Tiff.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/6.mo"/>
+    </item>
+
+    <item id="7" type="" start_date="2025 07 22 06 00 00" end_date="2025 08 03 06 00 00">
+        <episode_number>7</episode_number>
+        <kirby_power>19</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un ami tout n'œuf]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Le gigantesque et légendaire oiseau Dynablade est de passage à Cappyville pour pondre. Dadidou profite de l'occasion en persuadant Kirby, connu pour sa gourmandise, de manger son énorme œuf, pour que Dynablade se venge ensuite.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/7.mo"/>
+    </item>
+
+    <item id="8" type="" start_date="2025 07 25 06 00 00" end_date="2025 08 06 06 00 00">
+        <episode_number>8</episode_number>
+        <kirby_power>5</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Les grandes découvertes]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Lors d'une cérémonie en l'honneur du règne de Dadidou et de sa dynastie, celui-ci constate que personne n'est venu, très probablement parce que la légitimité du règne de Dadidou est remise en question. Commencent alors des fouilles archéologiques pour voir quel peuple a fondé Dream Land.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/8.mo"/>
+    </item>
+
+    <item id="9" type="" start_date="2025 07 28 06 00 00" end_date="2025 08 09 06 00 00">
+        <episode_number>9</episode_number>
+        <kirby_power>21</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Les origines de Fololo et Falala]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou veut que Fololo et Falala lui rendent un service, mais séparément. Ayant toujours été ensemble, ils refusent, mais Dadidou menace de les bannir. Il s'avère que Fololo et Falala n'ont pas toujours été ceux qu'ils sont actuellement.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/9.mo"/>
+    </item>
+
+    <item id="10" type="" start_date="2025 07 31 06 00 00" end_date="2025 08 12 06 00 00">
+        <episode_number>10</episode_number>
+        <kirby_power>11</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Mais que fait la police!]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Alors qu'il dirigeait une circulation inexistante, le chef de la police de Cappyville s'endort. Il n'a donc pas vu l'accident de la route entre Dadidou et le maire. Furieux que le chef Borun se soit endormi, Dadidou demande l'abolition de la police. Pour empêcher cela, Tuff et ses amis sèment le trouble un peu partout.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/10.mo"/>
+    </item>
+
+    <item id="11" type="" start_date="2025 08 03 06 00 00" end_date="2025 08 15 06 00 00">
+        <episode_number>11</episode_number>
+        <kirby_power>6</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le cuisinier du roi]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Le célèbre critique gastronome Oosaka est sur le point de venir au château de Dadidou. Celui-ci, pour éviter la ruine, engage Kawasaki, propriétaire du restaurant de Cappyville, pour préparer les meilleurs plats pour Oosaka et en même temps concocte un nouveau plan pour se débarrasser de Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/11.mo"/>
+    </item>
+
+    <item id="12" type="" start_date="2025 08 06 06 00 00" end_date="2025 08 18 06 00 00">
+        <episode_number>12</episode_number>
+        <kirby_power>22</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[L'escadron d'Escargoon]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Tandis qu'il prenait une photo de Dadidou, Escargoon remarque un fantôme sur la photo. Dadidou est immédiatement terrorisé à l'idée qu'un fantôme hante son château.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/12.mo"/>
+    </item>
+    
+    <item id="13" type="" start_date="2025 08 09 06 00 00" end_date="2025 08 21 06 00 00">
+        <episode_number>13</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Bonne année Cappyville]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou commande un monstre de fin d'année. Il s'avère qu'il est un excellent pyrotechnicien. En apprenant que Dadidou organise un festival de feux d'artifice avec l'aide de son monstre, les habitants de Cappyville décident de faire de même.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/13.mo"/>
+    </item>
+    
+    <item id="14" type="" start_date="2025 08 12 06 00 00" end_date="2025 08 24 06 00 00">
+        <episode_number>14</episode_number>
+        <kirby_power>23</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Les oreillers magiques]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou reçoit des oreillers de la part de Nightmare Corporation en guise de cadeaux de nouvelle année. Mais ces oreillers sont maléfiques : en effet celui ou celle qui s'endort avec se remémore les événements péjoratifs qui lui sont arrivés par la faute de Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/14.mo"/>
+    </item>
+    
+    <item id="15" type="" start_date="2025 08 15 06 00 00" end_date="2025 08 27 06 00 00">
+        <episode_number>15</episode_number>
+        <kirby_power>24</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un cadeau empoisonné]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Voyant que Tuff et ses amis traitent Kirby comme un moins que rien, Tiff décide de lui offrir un compagnon et lui achète un chien électronique. Mais elle va finir par mettre en doute la bonne foi du petit animal.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/15.mo"/>
+    </item>
+    
+    <item id="16" type="" start_date="2025 08 18 06 00 00" end_date="2025 08 30 06 00 00">
+        <episode_number>16</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un poisson nommé Kiné]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[En cherchant des coquillages Tiff tombe sur un coquillage d'or dans lequel est écrite une lettre d'amour en anciens caractères qui lui est destinée. Mais elle va vite déchanter quand elle saura que l'auteur de la lettre, Kine, est en réalité un poisson.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/16.mo"/>
+    </item>
+    
+    <item id="17" type="" start_date="2025 08 21 06 00 00" end_date="2025 09 02 06 00 00">
+        <episode_number>17</episode_number>
+        <kirby_power>25</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un anniversaire mouvementé]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Aujourd'hui c'est l'anniversaire de mariage de Parm et Memu, parents de Tiff et Tuff. Mais Kirby entraîne la perte de la bague de mariage. S'ensuit une longue série de péripéties pour la retrouver avant le dîner chez Kawasaki le soir même.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/17.mo"/>
+    </item>
+    
+    <item id="18" type="" start_date="2025 08 24 06 00 00" end_date="2025 09 05 06 00 00">
+        <episode_number>18</episode_number>
+        <kirby_power>13</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La fleur de jouvence]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou fait opposer Kirby à un monstre, Noddy. Et bien évidemment, Kirby l'aspire. Ce qui était le plan de Dadidou puisque Kirby s'endort immédiatement à cause des pouvoirs du monstre. Le seul traitement est le parfum d'une fleur cachée dans un endroit hostile.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/18.mo"/>
+    </item>
+    
+    <item id="19" type="" start_date="2025 08 27 06 00 00" end_date="2025 09 08 06 00 00">
+        <episode_number>19</episode_number>
+        <kirby_power>14</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La vengeance de Knuckle Joe]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Un mystérieux combattant nommé Knuckle Joe cherche le plus puissant guerrier de l'espace, actuellement dans le système solaire de Popstar. En effet celui-ci est montré comme l'assassin du père de Joe. Dadidou et Escargoon l'apprennent et le présentent à Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/19.mo"/>
+    </item>
+    
+    <item id="20" type="" start_date="2025 08 30 06 00 00" end_date="2025 09 11 06 00 00">
+        <episode_number>20</episode_number>
+        <kirby_power>15</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Il fait chaud, vite une glace!]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Pour lutter contre l'étouffante canicule, Dadidou commande un monstre, Dragon de Glace, qui provoque l'automne puis l'hiver. La neige qui enveloppe Cappyville convient à tous et Kirby fait la connaissance d'un bonhomme de neige vivant nommé Chilly. Mais il travaille en réalité pour Dadidou qui veut qu'il tue Kirby. Néanmoins Chilly semble avoir un bon fond.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/20.mo"/>
+    </item>
+    
+    
+    <item id="21" type="" start_date="2025 09 02 06 00 00" end_date="2025 09 14 06 00 00">
+        <episode_number>21</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Une princesse à Cappyville]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[La princesse Rona, venue d'une autre planète, et son garde du corps Vee sont de passage au château de Dadidou. Celui-ci tombe amoureux de la princesse, mais Tiff et Tuff finiront par apprendre que Rona et Vee ont échangé leurs rôles pour que Rona puisse fuir sa stricte condition.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/21.mo"/>
+    </item>
+    
+    <item id="22" type="" start_date="2025 09 05 06 00 00" end_date="2025 09 17 06 00 00">
+        <episode_number>22</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le guerrier de l'île oubliée]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Échoués sur une île déserte après une tornade causée par le monstre Tornadon, Kirby, Tiff et Tuff font la connaissance d'un ancien sergent qui se croit toujours en temps de guerre.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/22.mo"/>
+    </item>
+    
+    <item id="23" type="" start_date="2025 09 08 06 00 00" end_date="2025 09 20 06 00 00">
+        <episode_number>23</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le petit oiseau a disparu]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Escargoon met au point un sérum qui fait transformer en monstre. Lui et Dadidou tenteront de kidnapper le petit de Dynablade mais il s'échappera et sèmera une belle pagaille.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/23.mo"/>
+    </item>
+    
+    <item id="24" type="" start_date="2025 09 11 06 00 00" end_date="2025 09 23 06 00 00">
+        <episode_number>24</episode_number>
+        <kirby_power>12</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le festival Ninja]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Un mystérieux ninja cambrioleur pénètre chez Curio en pleine nuit. Par un rouleau avec écrites dessus des techniques ninja, une véritable "ninja-mania" s'empare de Cappyville.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/24.mo"/>
+    </item>
+    
+    <item id="25" type="" start_date="2025 09 14 06 00 00" end_date="2025 09 26 06 00 00">
+        <episode_number>25</episode_number>
+        <kirby_power>3</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le règne d'Escargoon]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Escargoon reçoit une lettre de sa mère. Elle va bientôt lui rendre visite et elle croit que son fils est le roi de Dream Land. Escargoon demande alors à Tiff et Tuff de monter un coup pour dissimuler la vérité.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/25.mo"/>
+    </item>
+    
+    <item id="26" type="" start_date="2025 09 17 06 00 00" end_date="2025 09 29 06 00 00">
+        <episode_number>26</episode_number>
+        <kirby_power>2</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le retour de Fureur de Loup]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou commande un monstre, Fureur de Loup, un loup sorti des enfers, qui s'échappe. Il s'avère qu'il est un très vieil ennemi de Meta Knight.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/26.mo"/>
+    </item>
+    
+    <item id="27" type="" start_date="2025 09 20 06 00 00" end_date="2025 10 02 06 00 00">
+        <episode_number>27</episode_number>
+        <kirby_power>11</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Complot de fleur]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Une magnifique fleur pousse dans la forêt, juste devant Whispy Woods. Apprenant que Tiff et Tuff comptent lui rendre visite, Escargoon et Dadidou veulent s'approprier la fleur, baptisée Lovely.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/27.mo"/>
+    </item>
+    
+    <item id="28" type="" start_date="2025 09 23 06 00 00" end_date="2025 10 05 06 00 00">
+        <episode_number>28</episode_number>
+        <kirby_power>15</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Vive le progrès]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou reçoit de Nightmare Corporation de quoi industrialiser son pays. Très vite Cappyville apprend la construction d'une usine par Dadidou dans le cadre d'une révolution industrielle.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/28.mo"/>
+    </item>
+    
+    <item id="29" type="" start_date="2025 09 26 06 00 00" end_date="2025 10 08 06 00 00">
+        <episode_number>29</episode_number>
+        <kirby_power>6</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[L'odyssée de l'épice]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Lors d'un de ses énormes repas, Dadidou est outré de ne pas avoir le meilleur plat qui soit. Et il ne le trouvera non plus chez Kawasaki. Il commande alors un monstre chef cuisiner à Nightmare Corporation, Monsieur Goan, qui le comble énormément. Monsieur Goan va se révéler être un cruel concurrent de Kawasaki.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/29.mo"/>
+    </item>
+
+    <item id="30" type="" start_date="2025 09 29 06 00 00" end_date="2025 10 11 06 00 00">
+        <episode_number>30</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Quoi de n'œuf Kirby]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Bizarrement, Kirby préfère dormir dans le nid de l'oiseau Tokkori plutôt que dans son lit. Le lendemain, il découvre un gros œuf dans le nid. Celui-ci attire l'attention, et surtout la curiosité de Kirby, qui décide de le couver.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/30.mo"/>
+    </item>
+
+    <item id="31" type="" start_date="2025 10 02 06 00 00" end_date="2025 10 14 06 00 00">
+        <episode_number>31</episode_number>
+        <kirby_power>9</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un parc d'attraction très attractif]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou organise une journée portes ouvertes de son château. Tiff suspecte immédiatement un coup pas très honnête. Elle avait raison, Dadidou voulait se débarrasser de Kirby en détraquant les attractions, et en l'attirant dans des pièges.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/31.mo"/>
+    </item>
+
+    <item id="32" type="" start_date="2025 10 05 06 00 00" end_date="2025 10 17 06 00 00">
+        <episode_number>32</episode_number>
+        <kirby_power>16</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[A Dental Dilemma (EN)]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[(Cet épisode n'est disponible qu'en anglais)<br/>Le chef Borun sort complètement affolé de chez le docteur Yabui qui devait lui faire un examen dentaire. Escargoon, lui, en a grandement besoin. S'étant fait retirer une carie, Dadidou se moque de lui car il prétend ne rien craindre. Jusqu'au jour où lui ainsi que Tuff aient leurs propres problèmes dentaires.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/32.mo"/>
+    </item>
+
+    <item id="33" type="" start_date="2025 10 08 06 00 00" end_date="2025 10 20 06 00 00">
+        <episode_number>33</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La poubelle universelle]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Par le télescope de Tiff, Kirby aperçoit un étrange vaisseau spatial. Les habitants de Cappyville constatent avec indignation que leur ville comporte une décharge publique. Et Dadidou se prétend innocent, cette fois.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/33.mo"/>
+    </item>
+
+    <item id="34" type="" start_date="2025 10 11 06 00 00" end_date="2025 10 23 06 00 00">
+        <episode_number>34</episode_number>
+        <kirby_power>6</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La recette du succès]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby croise le chef Oosaka sur sa route. Il en informe, à sa manière, Tiff et Tuff, qui croient avoir affaire au monstre défait par le passé. Mais il s'avère que cette fois il s'agit du vrai.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/34.mo"/>
+    </item>
+
+    <item id="35" type="" start_date="2025 10 14 06 00 00" end_date="2025 10 26 05 00 00">
+        <episode_number>35</episode_number>
+        <kirby_power>8</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le grand prix de Cappyville -1ère partie-]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[En essayant un kart, Tuff fonce vers Tiff ainsi que Dadidou et Escargoon. À la télévision, le capitaine Waddle Doo annonce que Dadidou organise un Grand Prix qui compte bien l'emporter avec sa nouvelle et puissante voiture.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/35.mo"/>
+    </item>
+
+    <item id="36" type="" start_date="2025 10 17 06 00 00" end_date="2025 10 29 05 00 00">
+        <episode_number>36</episode_number>
+        <kirby_power>8</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le grand prix de Cappyville -2ème partie-]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Le premier tour du Grand Prix s'achève. Dadidou et Escargoon continuent de tendre bon nombre de pièges malsains à Kirby et Tokkori.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/36.mo"/>
+    </item>
+
+    <item id="37" type="" start_date="2025 10 20 06 00 00" end_date="2025 11 01 05 00 00">
+        <episode_number>37</episode_number>
+        <kirby_power>26</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[La preuve par l'image]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Kirby mange toutes les pastèques du champ. Dadidou le filme et le suit partout désormais. Une fois rentré, il fait un montage de tout ce qu'il a filmé pour faire passer Kirby pour quelqu'un de malhonnête.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/37.mo"/>
+    </item>
+
+    <item id="38" type="" start_date="2025 10 23 06 00 00" end_date="2025 11 04 05 00 00">
+        <episode_number>38</episode_number>
+        <kirby_power>7</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le best seller]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Un mystérieux livre attire la curiosité des habitants. En voulant se l'approprier, Dadidou est vexé de ne pas trouver d'images. Il semble qu'il ne sache pas lire.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/38.mo"/>
+    </item>
+
+    <item id="39" type="" start_date="2025 10 26 05 00 00" end_date="2025 11 07 05 00 00">
+        <episode_number>39</episode_number>
+        <kirby_power>18</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Amnésie générale]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Escargoon se fait posséder par un monstre. Le lendemain, tout le monde l'a oublié à part Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/39.mo"/>
+    </item>
+
+    <item id="40" type="" start_date="2025 10 29 05 00 00" end_date="2025 11 10 05 00 00">
+        <episode_number>40</episode_number>
+        <kirby_power>14</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le directeur des monstres]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Des monstres débarquent en masse dans le château de Dadidou. Lorsque celui-ci contacte Nightmare Corporation pour arrêter ce flux, ils constatent avec étonnement que leur nouvel employé n'est autre que Knuckle Joe.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/40.mo"/>
+    </item>
+    
+    <item id="41" type="" start_date="2025 11 01 05 00 00" end_date="2025 11 13 05 00 00">
+        <episode_number>41</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Situation cauchemardesque -1ère partie-]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou fait un rêve où Kirby en feu l'attaque. Paranoïaque, il développe un phobie de la petite boule rose. Mais il semble que ce rêve cache quelque chose de bien réel.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/41.mo"/>
+    </item>
+    
+    <item id="42" type="" start_date="2025 11 04 05 00 00" end_date="2025 11 16 05 00 00">
+        <episode_number>42</episode_number>
+        <kirby_power>27</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Situation cauchemardesque -2ème partie-]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[L'énorme étoile rouge découverte par la voyante Mabel s'apprête à entrer en collision avec Dream Land. Tous se préparent à la fin du monde. L'étoile était en fait envoyée par les entreprises Nightmare.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/42.mo"/>
+    </item>
+    
+    <item id="43" type="" start_date="2025 11 07 05 00 00" end_date="2025 11 19 05 00 00">
+        <episode_number>43</episode_number>
+        <kirby_power>13</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Quand les moutons se rebellent…]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Peu après avoir lu une histoire de loup et de fermiers à ses amis, Tiff assiste à la charge d'un mouton toutes cornes en avant sur Kirby.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/43.mo"/>
+    </item>
+    
+    <item id="44" type="" start_date="2025 11 10 05 00 00" end_date="2025 11 22 05 00 00">
+        <episode_number>44</episode_number>
+        <kirby_power>11</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Sauvons la forêt]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou et Escargoon se rendent en forêt pour abattre un arbre à la forme étrange. Mais Rick le hamster et ses amis ont pu les en empêcher. Il s'avère que l'arbre en question est Acore, un vieil ami de Whispy Woods.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/44.mo"/>
+    </item>
+    
+    <item id="45" type="" start_date="2025 11 13 05 00 00" end_date="2025 11 25 05 00 00">
+        <episode_number>45</episode_number>
+        <kirby_power>19</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Scare Tactics - Part I (EN)]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[(Cet épisode n'est disponible qu'en anglais)<br/>En allant chercher Kirby dans une forêt, Tiff tombe sur une farce des habitants de Cappyville qui lui parlent d'un événement appelé Kimodameshi.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/45.mo"/>
+    </item>
+    
+    <item id="46" type="" start_date="2025 11 16 05 00 00" end_date="2025 11 28 05 00 00">
+        <episode_number>46</episode_number>
+        <kirby_power>1</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Scare Tactics - Part II (EN)]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[(Cet épisode n'est disponible qu'en anglais)<br/Coincés dans la maison prétendue hantée qu'ils ont trouvée, Tiff et Kirby sont apeurés par quelque chose d'inconnu tandis que Tuff et Meta Knight viennent à leur secours.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/46.mo"/>
+    </item>
+    
+    <item id="47" type="" start_date="2025 11 19 05 00 00" end_date="2025 12 01 05 00 00">
+        <episode_number>47</episode_number>
+        <kirby_power>5</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Licenciement abusif]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Lassé de la négligence des Waddle Dees, Dadidou les vire tous et les remplace par un robot. Bien évidemment, la nouvelle n'enchante pas Tiff.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/47.mo"/>
+    </item>
+    
+    <item id="48" type="" start_date="2025 11 22 05 00 00" end_date="2025 12 04 05 00 00">
+        <episode_number>48</episode_number>
+        <kirby_power>15</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le piège à touriste]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Des touristes d'origine inconnue photographient Kirby. En peu de temps, ils débarquent en masse.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/48.mo"/>
+    </item>
+    
+    <item id="49" type="" start_date="2025 11 25 05 00 00" end_date="2025 12 07 05 00 00">
+        <episode_number>49</episode_number>
+        <kirby_power>22</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Une journée très animée]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Voyant le dessin de Tiff qui peut bouger, Dadidou décide de lancer la création d'un dessin animé dont il serait le héros.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/49.mo"/>
+    </item>
+    
+    <item id="50" type="" start_date="2025 11 28 05 00 00" end_date="2025 12 10 05 00 00">
+        <episode_number>50</episode_number>
+        <kirby_power>29</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Des poupées maléfiques]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Malgré son énorme dette envers Nightmare Corporation, Dadidou commande des poupées de lui-même. Tout le monde finit par en avoir une, mais personne ne sait que Dadidou, le vrai, va les utiliser pour son propre profit, au sens propre.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/50.mo"/>
+    </item>
+    
+    <item id="51" type="" start_date="2025 12 01 05 00 00" end_date="2025 12 13 05 00 00">
+        <episode_number>51</episode_number>
+        <kirby_power>10</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Un anniversaire explosif]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Lorsque Kirby débarque en ville, tout le monde fuit. Tout le monde prépare quelque chose. Dadidou l'apprend et pense qu'une révolution visant à le renverser se prépare.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/51.mo"/>
+    </item>
+    
+    <item id="52" type="" start_date="2025 12 04 05 00 00" end_date="2025 12 16 05 00 00">
+        <episode_number>52</episode_number>
+        <kirby_power>30</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Les oeufs-surprise -1ère partie-]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Tiff surprend le gérant du magasin et le vendeur de jouets à la décharge. Elle suggère, en voyant deux de leurs produits, de les combiner. Les deux vendeurs décident d'appliquer cette idée. Ainsi l'œuf-surprise devient vite une mode, voire une folie.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/52.mo"/>
+    </item>
+    
+    <item id="53" type="" start_date="2025 12 07 05 00 00" end_date="2025 12 19 05 00 00">
+        <episode_number>53</episode_number>
+        <kirby_power>14</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Les oeufs-surprise -2ème partie-]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Les figurines laissés au clair de lune sont devenues des monstres. En effet ce sont des fabrications de Nightmare Corporation lancées par Dadidou. Les monstres attaquent délibérément leurs propriétaires.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/53.mo"/>
+    </item>
+    
+    <item id="54" type="" start_date="2025 12 10 05 00 00" end_date="2025 12 22 05 00 00">
+        <episode_number>54</episode_number>
+        <kirby_power>4</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Le chevalier fou]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Un vaisseau spatial s'écrase près de Cappyville. Il en sort un chevalier qui prétend s'appeler Sir Gallant.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/54.mo"/>
+    </item>
+    
+    <item id="55" type="" start_date="2025 12 13 05 00 00" end_date="2025 12 25 05 00 00">
+        <episode_number>55</episode_number>
+        <kirby_power>13</kirby_power>
+         <trans_unit>
+
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Gentil mais pas trop]]></target>
+            </title>
+
+            <title_message>
+                <target><![CDATA[title_message]]></target>
+            </title_message>
+
+            <synopsis size="">
+                <target xml:lang="en-UK"><![CDATA[Dadidou est devenu une vraie chiffe molle d'un jour à l'autre. Les gens de Cappyville l'ont poussé à bout sans se douter qu'un monstre a pris sa possession.]]></target>
+            </synopsis>
+
+        </trans_unit>
+        <video path="fr/kirbyen/55.mo"/>
+    </item>
+
+</episode_data>
+
+<!--HELP SCREEN DATA STARTS HERE (doesn't work yet)-->
+<help_data>
+     <item id="mail">
+        <button linkageID="Btn_Settings_Mail">
+            <trans_unit>
+
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Messages]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[Paramètres du service de messages]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+
+     <item id="channel">
+         <page_data>
+             <trans_unit id="channel_1" type="dialog">
+                 <message size="">
+                    <target xml:lang="en-UK"><![CDATA[La chaîne TV Kirby est<br/>un service limité qui permet<br/>de regarder gratuitement le<br/>dessin animé Kirby.]]></target>
+                 </message>
+                 <badge>2</badge>
+             </trans_unit>
+
+             <trans_unit id="channel_2" type="dialog">
+                 <message size="">
+                    <target xml:lang="en-UK"><![CDATA[Les épisodes sortiront<br/>tous les 3 jours jusqu'au<br/>25 décembre 2025.]]></target>
+                 </message>
+                 <badge>3</badge>
+             </trans_unit>
+
+             <trans_unit id="channel_3" type="dialog">
+                 <message size="">
+                    <target xml:lang="en-UK"><![CDATA[Les épisodes resteront disponibles pendant 12 jours. Vérifiez le programme pour voir les épisodes à venir.]]></target>
+                 </message>
+                 <badge>4</badge>
+             </trans_unit>
+        </page_data>
+
+        <button linkageID="Btn_Settings_Channel">
+            <trans_unit>
+
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Chaîne]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[À propos de la chaîne]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+
+    <item id="timetable">
+        <page_data>
+            <trans_unit id="txt_timeline_1" type="dialog">
+                <message size="">
+                    <target xml:lang="en-UK"><![CDATA[Ceci est le programme des épisodes de la chaîne TV Kirby.]]></target>
+                </message>
+                <badge>7</badge>
+            </trans_unit>
+
+            <trans_unit id="txt_timeline_2" type="dialog">
+              <message size="">
+                <target xml:lang="en-UK"><![CDATA[Ici vous pouvez vérifier quand<br/>de nouveaux épisodes sortent<br/>et utiliser des clés pour déverrouiller des épisodes manqués.]]></target>
+              </message>
+              <badge>1</badge>
+            </trans_unit>
+        </page_data>
+        <button linkageID="Btn_Settings_TimeTable">
+            <trans_unit>
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Programme]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[À propos du programme des épisodes]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+
+    <item id="keys">
+        <page_data>
+                <trans_unit id="key_1" type="dialog">
+                    <message size="">
+                        <target xml:lang="en-UK"><![CDATA[Vous avez la possibilité d'obtenir une clé après avoir regardé un épisode.]]></target>
+                    </message>
+                    <badge>8</badge>
+                </trans_unit>
+
+                <trans_unit id="key_2" type="dialog">
+                    <message size="">
+                        <target xml:lang="en-UK"><![CDATA[Les clés peuvent être utilisées pour regarder un épisode verrouillé pendant 24 heures.]]></target>
+                    </message>
+                    <badge>9</badge>
+                </trans_unit>
+
+                <trans_unit id="key_3" type="dialog">
+                    <message size="">
+                        <target xml:lang="en-UK"><![CDATA[Si vous obtenez une clé, allez voir dans le programme des épisodes pour trouver un ancien épisode à déverrouiller.]]></target>
+                    </message>
+                    <badge>1</badge>
+                </trans_unit>
+        </page_data>
+
+        <button linkageID="Btn_Settings_Keys">
+            <trans_unit>
+                <label>
+                    <target xml:lang="en-UK"><![CDATA[Clés]]></target>
+                </label>
+
+                <tool_tip y_offset="20">
+                  <target xml:lang="en-UK"><![CDATA[À propos des clés]]></target>
+                </tool_tip>
+
+            </trans_unit>
+        </button>
+    </item>
+</help_data>
+
+<!--PROMO DATA STARTS HERE-->
+    <!--
+<promo_data>
+    <item assets="" id="0" btn="Btn_PromoVideo_MA">
+        <episode_number>1</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Bande-annonce de lancement]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo1.mo"/>
+    </item>
+    <item assets="" id="1" btn="Btn_PromoVideo_AW">
+        <episode_number>2</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Bande-annonce de lancement]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo2.mo"/>
+    </item>
+    <item assets="" id="2" btn="Btn_PromoVideo_EY1">
+        <episode_number>3</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Bande-annonce de lancement]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo3.mo"/>
+    </item>
+    <item assets="" id="3" btn="Btn_PromoVideo_EY2">
+        <episode_number>4</episode_number>
+        <trans_unit>
+            <title size="">
+                <target xml:lang="en-UK"><![CDATA[Bande-annonce KTVC]]></target>
+            </title>
+        </trans_unit>
+        <video type="H264" path="video/promo4.mo"/>
+    </item>
+</promo_data>
+ -->
+</data>

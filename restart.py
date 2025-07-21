@@ -3,16 +3,17 @@ import lxml.etree as ET
 import importlib.util
 import os
 import sys
+import shutil
 
 # Configuration
-uptime = 259200  # 3 days
-startdate = 1752379200  # 2023.09.11 09:00:00
-startdateEX = 1752379200  # 2023.09.11 09:00:00
+uptime = 259200
+startdate = 1752379200
+startdateEX = 1752379200
 enddate = startdate + uptime
 dtformat = '%Y %m %d %H %M %S'
 
 # Supported locales
-SUPPORTED_LOCALES = ['en', 'es', 'it']
+SUPPORTED_LOCALES = ['en', 'es', 'it', 'fr']
 
 def load_locale_module(locale_code):
     """Dynamically load locale module"""
@@ -27,31 +28,6 @@ def load_locale_module(locale_code):
     spec.loader.exec_module(locale_module)
     
     return locale_module
-
-def dater():
-    print("uptime - Get the uptime epoch for the variable you need")
-    print("startdate - Get the epoch of the date you want to start")
-    what = input('What do you need? ').lower()
-
-    if what == "uptime":
-        days = int(input('How many days is the uptime? '))
-        oneday = 86400
-
-        out = oneday * days
-
-        print(f'{days} days = {out}\nPut this in the "uptime" variable at top of file.')
-
-    if what == 'startdate':
-        yy = int(input('Year to start:  '))
-        mm = int(input('Month to start: '))
-        dd = int(input('Day to start:   '))
-        hh = 9
-
-        dtime = datetime.datetime(yy, mm, dd, hh)
-
-        epochtime = int(datetime.datetime.timestamp(dtime))
-
-        print(f'{yy}.{mm}.{dd} = {epochtime}\nPut this in the "startdate" and "startdateEX"\nvariables at top of file.')
 
 def process_locale(locale_code):
     """Process a single locale and generate its XML file"""
@@ -167,6 +143,19 @@ def process_locale(locale_code):
     # Write the updated XML
     root.write(xmlfile, xml_declaration=True, encoding='utf-8')
     print(f"XML updated successfully: {xmlfile}")
+    
+    # Copy the generated XML file to the script directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_filename = f"gb_config_{locale_code}.xml"
+    output_path = os.path.join(script_dir, output_filename)
+    
+    try:
+        shutil.copy2(xmlfile, output_path)
+        print(f"XML copied to: {output_path}")
+    except Exception as e:
+        print(f"Failed to copy XML file: {e}")
+        return False
+    
     return True
 
 def main():
@@ -182,12 +171,10 @@ def main():
         print()  # Add blank line between locales
     
     print(f"Processing complete: {success_count}/{total_count} locales processed successfully")
-
-# IF YOU NEED TO SET THE uptime AND startdate VARIABLES
-# BUT DONT KNOW HOW TO SET THEM, RUN dater AT THE TOP
-# OF THE FILE BELOW THE IMPORTS OR UNCOMMENT THE FOLLOWING:
-#
-# dater()
+    
+    # Show the location of copied files
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    print(f"\nGenerated XML files copied to: {script_dir}")
 
 if __name__ == "__main__":
     main()
